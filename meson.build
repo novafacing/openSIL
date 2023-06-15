@@ -99,6 +99,8 @@ if CC_IS_GCC or CC_IS_CLANG
   cflags += ['-Wall', '-Werror',
              '-Wno-pedantic', '-Wno-unknown-pragmas',
              '-Wno-unused-parameter',
+             '-Wno-unused-but-set-variable',
+             '-Wno-unused-function',
              '-Wno-missing-field-initializers']
   # Add some warnings
   cflags += ['-Wstrict-prototypes', '-Wmissing-prototypes']

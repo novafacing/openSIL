@@ -13,16 +13,18 @@
  *
  */
 
-SIL_STATUS InitializeFchEspi (void);
-
+SIL_STATUS InitializeFchEspi(void);
 
 /**********************************************************************************************************************
  * @brief Module data structure
  *
  */
 
-
 /**********************************************************************************************************************
  * @brief Declare macros here
  *
  */
+
+#define FCH_LPC_BUS 1
+#define FCH_LPC_FUNC 1
+#define FCH_LPC_DEV 1
